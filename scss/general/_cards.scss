@@ -1,0 +1,154 @@
+
+
+.cuerpo-card{
+    margin: 80px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap:30px;
+    align-items: center;
+}
+
+.cuerpo-card > article{
+    background-color: rgb(248, 246, 246);
+    border: none;
+    box-shadow: 2px 2px 6px 0px rgba(250, 246, 246, 0.3);
+    border-radius:20px;
+    text-align: center;
+    width: 250px;
+    transition: transform .3s;
+}
+
+.cuerpo-card > article:hover{
+    transform: translateY(5px);
+    box-shadow: 2px 2px 26px 0px rgba(202, 200, 200, 0.3);
+}
+
+.cuerpo-card > article img{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius:20px;
+}
+
+.descripcion{
+    padding: 0 20px 20px;
+}
+
+.descripcion h3{
+    text-transform: uppercase;
+}
+
+.descripcion button{
+    background: #f80f0b;
+    border-radius: 20px;
+    border: none;
+    color:#fff;
+    padding: 10px;
+    width:100%;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+
+
+.contenedor{
+    width: 90%;
+    max-width: 1000px;
+    overflow: hidden;
+    margin: auto;
+}
+
+main .quienes{
+    background: #f0f3f5;
+    padding:60px 0;
+}
+
+main .quienes .quienes-titulo{
+    color:#000;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom:20px;
+}
+
+main .quienes .quienes-parrafo{
+    text-align: center;
+    color:#999999;
+    font-weight: 600;
+}
+
+main .quehacemos{
+    margin:60px 0;  
+}
+main .contenido-cajas{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+main .quehacemos .contenido-cajas .tarjeta{
+    width: 30%;
+    text-align: center;
+}
+
+main .quehacemos .contenido-cajas .tarjeta .contenido-tarjeta .titulo-tarjeta{
+    margin:10px 0;   
+}
+
+main .portafolio{
+    padding: 60px 0;
+}
+    
+
+
+main .portafolio .portafolio-textos{
+    text-align: center;
+    margin-bottom: 60px;
+    color:#2d3950;
+    font-size: 20px;
+}
+
+main .portafolio .portafolio-textos p{
+    color: #909090;
+    font-size: 15px;
+    margin:20px 0 0 0;
+}
+
+main .portafolio .galeria{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+main .portafolio .galeria .fotos{
+    width: 30%;
+    margin-bottom:20px;
+}
+
+main .portafolio .galeria .fotos img{
+    width: 100%;
+    height:210px;
+    border-radius: 5px;
+}
+main .portafolio .galeria .fotos img:hover{
+    opacity:.6;
+    cursor: pointer;
+}
+
+.fondo1{
+    background-color: #000;
+    width: 95vh;
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
+}
+
+.img-responsive {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0px 3px 5px rgba(15, 15,15, .15);
+}
+
+
+
+
+
